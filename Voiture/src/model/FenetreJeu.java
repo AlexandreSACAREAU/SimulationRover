@@ -18,6 +18,7 @@ public class FenetreJeu extends JFrame {
 	public FenetreJeu(){
 		super();
 		this.voiture = new VoiturePanel(this.getContentPane());
+		add(this.voiture);
 		this.parametres = new VoitureParameters(10);
 		eventVoiture();
 	}
