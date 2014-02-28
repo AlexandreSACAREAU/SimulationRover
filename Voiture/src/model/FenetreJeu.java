@@ -34,7 +34,7 @@ public class FenetreJeu extends JFrame {
 	}
 
 	private void eventVoiture(){
-		this.voiture.addKeyListener(new KeyListener()
+		this.addKeyListener(new KeyListener()
 		{
 			@Override
 			public void keyPressed(KeyEvent e)
