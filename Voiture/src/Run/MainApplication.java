@@ -26,7 +26,7 @@ public class MainApplication {
     /** Initialiser de la partie graphique du projet*/
     private static void init_ihm(){
     	ihm = new FenetreJeu();
-		ihm.setSize(600, 600);
+		ihm.setSize(1080, 720);
 		ihm.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		ihm.setVisible(true);
     }
