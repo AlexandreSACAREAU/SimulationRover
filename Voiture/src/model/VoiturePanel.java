@@ -37,7 +37,7 @@ public class VoiturePanel extends JPanel {
 	    this.carPanel.add(this.carLabel);*/
 		BufferedImage myPicture = null;
 		try {
-			myPicture = ImageIO.read(new File("resources/Car.png"));
+			myPicture = ImageIO.read(new File("resources/Car2.png"));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
