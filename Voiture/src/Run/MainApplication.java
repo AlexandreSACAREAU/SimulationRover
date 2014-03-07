@@ -5,7 +5,7 @@ import java.util.TimerTask;
 
 import javax.swing.JFrame;
 
-import model.FenetreJeu;
+import view.FenetreJeu;
 
 public class MainApplication {
 
