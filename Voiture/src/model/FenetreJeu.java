@@ -43,16 +43,16 @@ public class FenetreJeu extends JFrame {
 				switch (e.getKeyCode())
 				{
 					case KeyEvent.VK_RIGHT:
-						getVoiture().setLocation(p.x+1, p.y);
+						getVoiture().setLocation(p.x+8, p.y);
 						break;
 					case KeyEvent.VK_LEFT:
-						getVoiture().setLocation(p.x-1, p.y);
+						getVoiture().setLocation(p.x-8, p.y);
 						break;
 					case KeyEvent.VK_UP:
-					    getParametres().accelaration();
+						getVoiture().setLocation(p.x, p.y-8);
 						break;
 					case KeyEvent.VK_DOWN:
-					    getParametres().freiner();
+						getVoiture().setLocation(p.x, p.y+8);
 						break;
 				}
 			}
